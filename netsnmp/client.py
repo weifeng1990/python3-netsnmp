@@ -76,7 +76,7 @@ class Varbind(object):
 
 
 class VarList(object):
-    def __init__(self, *vs):
+    def __init__(self, vs):
         self.varbinds = []
 
         for var in vs:
